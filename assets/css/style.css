@@ -1,3 +1,12 @@
+/* 
+Guide
+-Header-
+-nav-
+-Background Picture-
+-Section of Articles-
+-Aside of Articles-
+-Footer-
+ */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -7,7 +16,7 @@
 body {
   background-color: #d9dcd6;
 }
-
+/* Header */
 .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -24,7 +33,7 @@ body {
 .header h1 .seo {
   color: #d9dcd6;
 }
-
+/* nav */
 .header nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -47,10 +56,7 @@ a {
   text-decoration: none;
 }
 
-p {
-  font-size: 16px;
-}
-
+/* Background Picture */
 .hero {
   height: 800px;
   width: 100%;
@@ -58,6 +64,28 @@ p {
   background-image: url("../images/digital-marketing-meeting.jpg");
   background-size: cover;
   background-position: center;
+}
+/* Section of Articles */
+.cell {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+.cell img {
+  max-height: 200px;
+}
+
+.cell h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+p {
+  font-size: 16px;
 }
 
 .float-left {
@@ -70,6 +98,7 @@ p {
   margin-left: 25px;
 }
 
+/* Aside of Articles */
 .content {
   width: 75%;
   display: inline-block;
@@ -103,24 +132,7 @@ p {
   max-width: 150px;
 }
 
-.cell {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.cell img {
-  max-height: 200px;
-}
-
-.cell h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
+/* Footer */
 .footer {
   padding: 30px;
   clear: both;
